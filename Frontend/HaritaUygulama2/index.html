@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Designer Pro 3000</title>
+    <link rel="stylesheet" type="text/css" href="/Datatables1/datatables.css">
+    <script type="text/javascript" charset="utf8" src="/Datatables1/datatables.js"></script>
+    <script type="text/javascript" charset="utf8" src="/nonj/code.jquery.com_jquery-3.5.1.js"></script>
+    <script type="text/javascript" charset="utf8" src="/nonj/datatables.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/ol@v8.0.0/ol.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- jsPanel CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/jspanel.css"
+      rel="stylesheet"
+    />
+    <!-- jsPanel JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/jspanel.js"></script>
+
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+  </head>
+  <body>
+    <!--- Animation -->
+    <!-- <div class ="container"> -->
+      <!-- </div class ="bubbles"><div> -->
+        <!-- <span></span> -->
+        <!-- <span></span> -->
+        <!-- <span></span> -->
+      <!-- </div> -->
+    <!-- </div> 
+ -->
+
+
+ 
+    
+    <div id="navbar">
+      
+      <button id="addButton" class="navbar-button">
+        <div class="button-content">
+          <span class="material-symbols-outlined">add_circle</span>
+          <span class="button-text">Add Point</span>
+        </div>
+      </button>
+      <button id="queryButton" class="navbar-button">
+        <div class="button-content">
+          <span class="material-symbols-outlined">query_stats</span>
+          <span class="button-text">Query Point</span>
+        </div>
+      </button>
+    </div>
+    <script type="text/javascript" charset="utf8" src="/nonj/code.jquery.com_jquery-3.5.1.js"></script>
+    <script type="text/javascript" charset="utf8" src="/nonj/datatables.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <!-- <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script> -->
+    <script>
+        $(document).ready(function() {
+            $('#veri-tablosu').DataTable();
+        });
+    </script>
+
+    <div id="map"></div>
+    <script src="/Datatables1/datatables.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ol@v8.0.0/dist/ol.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/extensions/modal/jspanel.modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/extensions/tooltip/jspanel.tooltip.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/extensions/hint/jspanel.hint.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/extensions/layout/jspanel.layout.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/extensions/contextmenu/jspanel.contextmenu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/extensions/dock/jspanel.dock.js"></script>
+  </body>
+</html>

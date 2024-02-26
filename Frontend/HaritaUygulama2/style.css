@@ -1,0 +1,166 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+/* Navbar stil özellikleri */
+#navbar {
+  position: fixed;
+  /* Navbar'ı sabit bir konumda tutar */
+  top: 0;
+  /* Sayfanın en üstüne konumlandırır */
+  left: 0;
+  /* Sayfanın soluna yaslar */
+  width: 100%;
+  /* Sayfanın genişliği kadar uzatır */
+  background-color: #333;
+  padding: 10px;
+  text-align: left;
+  z-index: 2;
+}
+/* Navbar butonları */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  /* Kenar yuvarlatma */
+}
+
+/* Bildirim */
+.notification {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+
+/* Özel bir buton stili */
+.navbar-button {
+  background-color: #333;
+  /* Özel arkaplan rengi */
+  color: white;
+  padding: 12px 24px;
+  /* Özel içerik dolgusu */
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.navbar-button:hover {
+  background-color: #333;
+  color: rgb(88, 88, 88);
+  /* Hover durumunda farklı bir renk */
+}
+
+.navbar-button .button-content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-button .material-symbols-outlined {
+  vertical-align: middle;
+}
+
+.navbar-button .button-text {
+  vertical-align: middle;
+  margin-left: 5px;
+  /* Sembol ile yazı arasında bir boşluk ekler */
+}
+
+/* Özelleştirilmiş panel teması */
+.jsPanel {
+  width: 900px !important;
+  height: 800px !important;
+  top: 100px !important;
+  border-radius: 25px !important;
+  background: #73AD21;
+  padding: 20px;
+}
+.jsPanel .jsPanel-content {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: #333;
+  color: #ccc;
+  font-weight: bold;
+}
+.add-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.my-custom-footer {
+  background-color: #7c2a2a;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  /* Alt içeriği ortalamak için */
+  border-top: 1px solid #ccc;
+  /* Alt tarafı ayırmak için bir sınır ekler */
+}
+.addpoint{
+  width: 600px !important;
+  height: 300px !important;
+}
+ .update-button
+ {
+  background-color: #4CAF50;
+  height: 40px;
+    width: 40px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    border: none;
+    cursor: pointer;
+
+ }
+
+ .delete-button{
+  background-color: #7c2a2a;
+  height: 40px;
+    width: 40px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+ }
+ 
+ .background-svg {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" /></svg>'); /* SVG dosyanızın yolu */
+  background-size: cover; 
+}
+
+.background-svg-delete {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" /></svg>');
+  background-size: cover; 
+}
+
+ .update-panel{
+  height: 400px !important;
+    width: 500px !important;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+ }
+
+ 
